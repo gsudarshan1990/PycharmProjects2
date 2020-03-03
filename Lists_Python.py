@@ -43,6 +43,39 @@ print(mylist1)
 print(mylist1)
 
 
+def count_a(list1):
+    count=0
+    for lis in list1:
+        if 'a' == lis:
+            count=count+1
+    print("Total number of 'a' in the list is : ",count)
+
+
+
+lis1=['a','b','a','r','c','a','a']
+
+count_a(lis1)
+
+def average(list0):
+    length=len(list0)
+    sum=-1
+    for number in list0:
+        sum=sum+number
+    number_average=(sum/length)
+    return number_average
+
+nlis=[1,4,8,105,210,-3,41,8,33,1]
+rlis=[3.14,7.26,-4.76,0,8.24,9.1,-100.7,4]
+print(average(nlis))
+print(average(rlis))
+
+def iterating_list(list1):
+    for item in list1:
+        print(item)
+
+newEngland=["Maine","New Hampshire","Vermont","Rhodes Island","Massachussets","Connecticut"]
+
+iterating_list(newEngland)
 
 
 
