@@ -26,7 +26,14 @@ x=True
 print(type(x))
 
 
+def multiply():
+    numstr1=input('Enter the number1:')
+    numstr2=input('Enter the number2:')
+    num1float=float(numstr1)
+    num2float=float(numstr2)
+    print('The product of two numbers',num1float*num2float)
 
+multiply()
 
 
 
