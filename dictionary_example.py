@@ -50,3 +50,49 @@ if 'Age' in thisdict:
 thisdict={"Name":"Sheldon","Age":10,"Country":"UK"}
 thisdict["nickname"]="Shelly"
 print(thisdict)
+
+
+#Dictionary
+d={"Johny":"5 years old","Sally":"7 years old","Eva":"10 years old","peggy":"7 years old"}
+print(d)
+
+print(d["Sally"])
+print(d["Eva"])
+print(d.items())
+print(d.keys())
+print(d.values())
+
+
+#Print Key and Value Separately
+for key,value in d.items():
+    print(key+"------>"+value)
+
+
+#Printing in the form of tuples
+for item in d.items():
+    print(item)
+
+#Pring in the form of values from d.items()
+
+for item in d.items():
+    print(item[0]+'------>'+item[1])
+
+for key in d.keys():
+    print(key+'---->'+d[key])
+
+d['Ted']='5 years old'
+
+ascars={"Ford":"Mustang","Mazda":"Miata","Scion":"FR-S","Subaru":"BRZ","Dodge":"Challenger","Nissan":"3702","chevy":"Camaro",
+        "Hyundai":"Genesis Coupe","Mini-Cooper":"Roadster"}
+
+print(ascars)
+print(ascars['Nissan'])
+print(ascars['chevy'])
+print(ascars['Mini-Cooper'])
+ascars['Mini-Cooper']='coupe'
+
+for value in ascars.values():
+    print(value)
+
+for key in ascars.keys():
+    print(key)
