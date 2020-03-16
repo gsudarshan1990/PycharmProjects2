@@ -1,4 +1,5 @@
 import json
+import ijson
 
 json_object='{"name":"Shashank","age":29,"job":"IT Engineer"}'
 
@@ -16,3 +17,6 @@ with open("E:\Python_Latest_Besant_Technologies\JSON Files\secondjson.json","r")
 
 for key,value in new_parsed_json_dict.items():
     print(key+"   ",value)
+
+
+
